@@ -12,7 +12,13 @@
     "@playwright/test": "^1.53.0",
     "@types/node": "^24.0.3"
   },
-  "scripts": {},
+  "scripts": {
+    "test:e2e":"npx playwright test tests/",
+    "test:e2e:all":"npx playwright test tests --project=chromium",
+    "test:e2e:ci":"CI=1 npx playwright test --project=ci --shard=$CI_NODE_INDEX",
+    "test:e2e:smoke":"npx playwright test tests/ --grep @smoke --project=firefox",
+    "test:e2e:non-smoke":"npx playwright test tests/ --grep-invert @smoke "
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rays63/Playright-typescript.git"
