@@ -1,0 +1,19 @@
+{
+  "name": "playright-typescript",
+  "version": "1.0.0",
+  "description": "Automated Software testing using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rays63/Playright-typescript.git"
+  },
+  "author": "Raymond Maharjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rays63/Playright-typescript/issues"
+  },
+  "homepage": "https://github.com/rays63/Playright-typescript#readme"
+}
