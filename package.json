@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rays63/Playright-typescript/issues"
   },
-  "homepage": "https://github.com/rays63/Playright-typescript#readme"
+  "homepage": "https://github.com/rays63/Playright-typescript#readme",
+  "dependencies": {
+    "prettier": "^3.6.2"
+  }
 }
